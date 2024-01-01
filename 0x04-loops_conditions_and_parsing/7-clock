@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#clock
+
+HOUR=0
+while [ $HOUR -lt 13 ]
+do
+	echo "Hour:" $HOUR
+	SEC=1
+	while [ $SEC -lt 60 ]
+	do
+		echo $SEC
+		(( SEC+=1 ))
+	done
+	(( HOUR+=1 ))
+done
