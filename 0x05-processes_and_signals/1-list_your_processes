@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #list all proc
 
-top
+ps auxf
